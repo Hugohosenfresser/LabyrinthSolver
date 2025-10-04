@@ -67,7 +67,7 @@ open index.html
 .
 ├── main.html
 ├── style.css
-├── index.js
+├── main.js
 ├── LICENSE
 ├── Readme
 └── json_presets/
