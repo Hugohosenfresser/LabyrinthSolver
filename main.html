@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Generation-Menu">
+        <p>Columns Count</p><input type="number" id="Generate-Columns-Count" min="0" value="10">
+        <p>Rows Count</p><input type="number" id="Generate-Rows-Count" min="0" value="10">
+        <button id="Generate-Maze-Button" onclick="GenerateMaze()">Generate Maze</button>
+        <button id="Run-Maze-Button" onclick="RunMaze()">Run Maze</button>
+    </div>
+    <div id="Maze-Wrapper">
+
+    </div>
+</body>
+    <script src="index.js"></script>
+</html>
