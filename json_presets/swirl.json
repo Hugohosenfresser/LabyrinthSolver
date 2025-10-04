@@ -1,0 +1,177 @@
+{
+  "name": "swirl",
+  "column_count": 10,
+  "row_count": 10,
+  "show_grid": false,
+  "draw_mode": "goal",
+  "start_position": {
+    "column": 0,
+    "row": 9
+  },
+  "goal_position": {
+    "column": 4,
+    "row": 4
+  },
+  "wall_positions": {
+    "wall_0": {
+      "column": 0,
+      "row": 8
+    },
+    "wall_1": {
+      "column": 1,
+      "row": 1
+    },
+    "wall_2": {
+      "column": 1,
+      "row": 2
+    },
+    "wall_3": {
+      "column": 1,
+      "row": 3
+    },
+    "wall_4": {
+      "column": 1,
+      "row": 4
+    },
+    "wall_5": {
+      "column": 1,
+      "row": 5
+    },
+    "wall_6": {
+      "column": 1,
+      "row": 6
+    },
+    "wall_7": {
+      "column": 1,
+      "row": 8
+    },
+    "wall_8": {
+      "column": 2,
+      "row": 1
+    },
+    "wall_9": {
+      "column": 2,
+      "row": 6
+    },
+    "wall_10": {
+      "column": 2,
+      "row": 8
+    },
+    "wall_11": {
+      "column": 3,
+      "row": 1
+    },
+    "wall_12": {
+      "column": 3,
+      "row": 3
+    },
+    "wall_13": {
+      "column": 3,
+      "row": 4
+    },
+    "wall_14": {
+      "column": 3,
+      "row": 6
+    },
+    "wall_15": {
+      "column": 3,
+      "row": 8
+    },
+    "wall_16": {
+      "column": 4,
+      "row": 1
+    },
+    "wall_17": {
+      "column": 4,
+      "row": 3
+    },
+    "wall_18": {
+      "column": 4,
+      "row": 6
+    },
+    "wall_19": {
+      "column": 4,
+      "row": 8
+    },
+    "wall_20": {
+      "column": 5,
+      "row": 1
+    },
+    "wall_21": {
+      "column": 5,
+      "row": 3
+    },
+    "wall_22": {
+      "column": 5,
+      "row": 6
+    },
+    "wall_23": {
+      "column": 5,
+      "row": 8
+    },
+    "wall_24": {
+      "column": 6,
+      "row": 1
+    },
+    "wall_25": {
+      "column": 6,
+      "row": 3
+    },
+    "wall_26": {
+      "column": 6,
+      "row": 4
+    },
+    "wall_27": {
+      "column": 6,
+      "row": 5
+    },
+    "wall_28": {
+      "column": 6,
+      "row": 6
+    },
+    "wall_29": {
+      "column": 6,
+      "row": 8
+    },
+    "wall_30": {
+      "column": 7,
+      "row": 1
+    },
+    "wall_31": {
+      "column": 7,
+      "row": 8
+    },
+    "wall_32": {
+      "column": 8,
+      "row": 1
+    },
+    "wall_33": {
+      "column": 8,
+      "row": 2
+    },
+    "wall_34": {
+      "column": 8,
+      "row": 3
+    },
+    "wall_35": {
+      "column": 8,
+      "row": 4
+    },
+    "wall_36": {
+      "column": 8,
+      "row": 5
+    },
+    "wall_37": {
+      "column": 8,
+      "row": 6
+    },
+    "wall_38": {
+      "column": 8,
+      "row": 7
+    },
+    "wall_39": {
+      "column": 8,
+      "row": 8
+    }
+  }
+}

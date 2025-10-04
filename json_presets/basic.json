@@ -1,0 +1,29 @@
+{
+  "name": "basic",
+  "column_count": 15,
+  "row_count": 15,
+  "show_grid": true,
+  "draw_mode": "default",
+  "start_position": {
+    "column": 0,
+    "row": 0
+  },
+  "goal_position": {
+    "column": 5,
+    "row": 5
+  },
+  "wall_positions": {
+    "wall_0": {
+      "column": 2,
+      "row": 2
+    },
+    "wall_1": {
+      "column": 3,
+      "row": 3
+    },
+    "wall_2": {
+      "column": 8,
+      "row": 8
+    }
+  }
+}

@@ -1,21 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puzzle Solver</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flood Fill Thingi</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="Generation-Menu">
-        <p>Columns Count</p><input type="number" id="Generate-Columns-Count" min="0" value="10">
-        <p>Rows Count</p><input type="number" id="Generate-Rows-Count" min="0" value="10">
-        <button id="Generate-Maze-Button" onclick="GenerateMaze()">Generate Maze</button>
-        <button id="Run-Maze-Button" onclick="RunMaze()">Run Maze</button>
-    </div>
-    <div id="Maze-Wrapper">
+    <div id="Menu">
+        <div id="Generation-Menu">
+            <h4>Generation Menu</h4>
 
+            <label for="Generate-Columns-Count">Columns Count</label>
+            <input type="number" id="Generate-Columns-Count" min="0" value="10" />
+
+            <label for="Generate-Rows-Count">Rows Count</label>
+            <input type="number" id="Generate-Rows-Count" min="0" value="10" />
+
+            <button id="Generate-Maze-Button" onclick="GenerateMaze()">Generate Maze</button>
+            <button id="Run-Maze-Button" onclick="RunMaze()">Run Maze</button>
+            <button id="Reset-Maze-Button" onclick="ResetMaze()">Reset Maze</button>
+            <button id="Delete-Maze-Button" onclick="DeleteMaze()">Delete Maze</button>
+
+            <label for="Show-Grid-Coordinates-Button">
+                <input type="checkbox" id="Show-Grid-Coordinates-Button" onclick="ShowGridCoordinates()"/>
+                Show Grid Coordinates
+            </label>
+
+            <p id="Result-Output">Result: </p>
+        </div>
+
+        <div id="Tools">
+            <h4>Draw Mode</h4>
+
+            <label for="default-draw-button">
+                <input id="default-draw-button" name="draw-mode" onclick="SetDrawMode('default')" type="radio" checked />
+                default
+            </label>
+
+            <label for="start-draw-button">
+                <input id="start-draw-button" name="draw-mode" onclick="SetDrawMode('start')" type="radio" />
+                start
+            </label>
+
+            <label for="goal-draw-button">
+                <input id="goal-draw-button" name="draw-mode" onclick="SetDrawMode('goal')" type="radio" />
+                goal
+            </label>
+
+            <label for="wall-draw-button">
+                <input id="wall-draw-button" name="draw-mode" onclick="SetDrawMode('wall')" type="radio" />
+                wall
+            </label>
+        </div>
+
+        <div id="Json-Loading">
+            <h4>Json Presets</h4>
+            <select name="Json-Default-Presets" id="Json-Premade-Selector">
+                <option value="basic">basic</option>
+                <option value="swirl">swirl</option>
+            </select>
+            <button onclick="LoadDefaultPreset()">load preset</button>
+
+            <h4>Custom Presets</h4>
+            <input type="file" id="CustomPresetInput">
+            <button onclick="LoadCustomPreset()">load preset</button>
+
+            <h4>Save Preset</h4>
+            <input type="text" placeholder="Name..." id="CustomPreset-Name-Input" />
+            <button onclick="SavePreset()">save preset</button>
+        </div>
     </div>
+
+    <div id="Maze-Wrapper"></div>
+
+<script src="index.js"></script>
 </body>
-    <script src="index.js"></script>
 </html>
